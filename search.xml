@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title></title>
+      <link href="/2023/02/01/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%8D%8A%E5%A4%B1%E8%B4%A5%E7%9A%84%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%8A%98%E8%85%BE%E7%BB%8F%E5%8E%86/"/>
+      <url>/2023/02/01/%E8%AE%B0%E4%B8%80%E6%AC%A1%E5%8D%8A%E5%A4%B1%E8%B4%A5%E7%9A%84%E7%9C%8B%E6%9D%BF%E5%A8%98%E6%8A%98%E8%85%BE%E7%BB%8F%E5%8E%86/</url>
+      
+        <content type="html"><![CDATA[<h1 id="记一次半失败的看板娘折腾经历"><a href="#记一次半失败的看板娘折腾经历" class="headerlink" title="记一次半失败的看板娘折腾经历"></a>记一次半失败的看板娘折腾经历</h1><p><img src="https://gitee.com/vicenzo/hexo-blog-personal-map-bed/raw/master/img/2020_08_10_21_06_IMG_7833.JPG"></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2023/01/09/hello-world/"/>
       <url>/2023/01/09/hello-world/</url>
@@ -20,9 +33,20 @@
     
     
     <entry>
-      <title>����</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" href="/css/commentsbar.css"/>  <div id="computer">    <div id="maincontent"><br>      <div id="form-wrap"><img src="https://cdn.jsdelivr.net/gh/Akilarlxh/Valine-Admin@v1.0/source/img/before.png" id="beforeimg">        <div id="envelope">          <form>            <div class="formmain">              <img class="headerimg" src="https://ae01.alicdn.com/kf/U5bb04af32be544c4b41206d9a42fcacfd.jpg"/>              <div style="padding: 5px 20px;">                <center>                  <h3 calss="title3">来自Akilar的留言:</h3>                </center>                <center class="comments">                  有什么想问的？<br>                  有什么想说的？<br>                  有什么想吐槽的？<br>                  哪怕是有什么想吃的，都可以告诉我哦~<br>                </center>                <div class="bottomcontent">                <img class="bottomimg" src="https://ae01.alicdn.com/kf/U0968ee80fd5c4f05a02bdda9709b041eE.png"/>                </div>                <p class="bottomhr">自动书记人偶竭诚为您服务！</p>              </div>            </div>          </form>        </div><img id="afterimg" src="https://cdn.jsdelivr.net/gh/Akilarlxh/Valine-Admin@v1.0/source/img/after.png">      </div>    </div>  </div>  <div id="mobile">    <form>      <div class="formmain"><img class="headerimg" src="https://ae01.alicdn.com/kf/U5bb04af32be544c4b41206d9a42fcacfd.jpg" />        <div style="padding: 5px 20px;">          <center>            <h3 class="title3">来自Akilar的留言:</h3>          </center>          <center class="comments">            有什么想问的？<br>            有什么想说的？<br>            有什么想吐槽的？<br>            哪怕是有什么想吃的，都可以告诉我哦~<br>          </center>          <div class="bottomcontent"><img src="https://ae01.alicdn.com/kf/U0968ee80fd5c4f05a02bdda9709b041eE.png" class="bottomhr"></div>          <p class="bottomhr"">自动书记人偶竭诚为您服务！</p>        </div>      </div>    </form>  </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -42,17 +66,6 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>友人帐</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -64,11 +77,11 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
+      <title>����</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" href="/css/commentsbar.css"/>  <div id="computer">    <div id="maincontent"><br>      <div id="form-wrap"><img src="https://cdn.jsdelivr.net/gh/Akilarlxh/Valine-Admin@v1.0/source/img/before.png" id="beforeimg">        <div id="envelope">          <form>            <div class="formmain">              <img class="headerimg" src="https://ae01.alicdn.com/kf/U5bb04af32be544c4b41206d9a42fcacfd.jpg"/>              <div style="padding: 5px 20px;">                <center>                  <h3 calss="title3">来自Akilar的留言:</h3>                </center>                <center class="comments">                  有什么想问的？<br>                  有什么想说的？<br>                  有什么想吐槽的？<br>                  哪怕是有什么想吃的，都可以告诉我哦~<br>                </center>                <div class="bottomcontent">                <img class="bottomimg" src="https://ae01.alicdn.com/kf/U0968ee80fd5c4f05a02bdda9709b041eE.png"/>                </div>                <p class="bottomhr">自动书记人偶竭诚为您服务！</p>              </div>            </div>          </form>        </div><img id="afterimg" src="https://cdn.jsdelivr.net/gh/Akilarlxh/Valine-Admin@v1.0/source/img/after.png">      </div>    </div>  </div>  <div id="mobile">    <form>      <div class="formmain"><img class="headerimg" src="https://ae01.alicdn.com/kf/U5bb04af32be544c4b41206d9a42fcacfd.jpg" />        <div style="padding: 5px 20px;">          <center>            <h3 class="title3">来自Akilar的留言:</h3>          </center>          <center class="comments">            有什么想问的？<br>            有什么想说的？<br>            有什么想吐槽的？<br>            哪怕是有什么想吃的，都可以告诉我哦~<br>          </center>          <div class="bottomcontent"><img src="https://ae01.alicdn.com/kf/U0968ee80fd5c4f05a02bdda9709b041eE.png" class="bottomhr"></div>          <p class="bottomhr"">自动书记人偶竭诚为您服务！</p>        </div>      </div>    </form>  </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     

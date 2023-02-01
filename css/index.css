@@ -2422,9 +2422,6 @@ figure.highlight pre .javascript .function {
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap .article-meta-link {
   margin: 0 4px;
 }
-#recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap time {
-  display: none;
-}
 #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap a {
   color: #858585;
 }
@@ -3194,13 +3191,6 @@ h1.page-title + .tag-cloud-list {
   background-position: bottom;
   background-size: cover;
 }
-#footer:before {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0,0,0,0.5);
-  content: '';
-}
 #footer-wrap {
   position: relative;
   padding: 40px 20px;
@@ -3486,9 +3476,6 @@ h1.page-title + .tag-cloud-list {
 #post-info #post-meta a:hover {
   color: #49b1f5;
   text-decoration: underline;
-}
-#post-info #post-meta time {
-  display: none;
 }
 #nav {
   position: absolute;
