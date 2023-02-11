@@ -21,3 +21,14 @@
   [data-theme="dark"] #page-header::before {
     background: transparent !important;
   }
+  /* С��������������ҹģʽ���� */
+/* һ��״̬ */
+[data-theme="dark"] .magnet_link_context {
+  background: #1e1e1e;
+  color: antiquewhite;
+}
+/* �������״̬ */
+[data-theme="dark"] .magnet_link_context:hover {
+  background: #3ecdf1;
+  color: #f2f2f2;
+}
