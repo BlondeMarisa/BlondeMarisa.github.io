@@ -32,3 +32,9 @@
   background: #3ecdf1;
   color: #f2f2f2;
 }
+/* ��ҳ��ť���� */
+#pagination {
+  width: 100%;
+  margin: auto;
+}
+
