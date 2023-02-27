@@ -1,6 +1,6 @@
 // 动态心跳，更改自己的名称
 $(document).ready(function(e){
-    $('.copyright').html('©2022 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By Blonde_Marisa');
+    $('.copyright').html('©2023 <i class="fa-fw fas fa-heartbeat card-announcement-animation cc_pointer"></i> By 黄金发の魔理沙');
 })
 
 $(document).ready(function(e){

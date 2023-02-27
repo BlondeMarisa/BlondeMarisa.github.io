@@ -1328,8 +1328,8 @@ canvas:not(#ribbon-canvas),
   --global-font-size: 14px;
   --global-bg: #fff;
   --font-color: #4c4948;
-  --hr-border: #a4d8fa;
-  --hr-before-color: #80c8f8;
+  --hr-border: #d2ebfd;
+  --hr-before-color: #bfe4fb;
   --search-bg: #f6f8fa;
   --search-input-color: #4c4948;
   --search-result-title: #4c4948;
@@ -1467,7 +1467,7 @@ table td {
   vertical-align: middle;
 }
 *::selection {
-  background: #00c4b6;
+  background: #49b1f5;
   color: #f7f7f7;
 }
 button {
@@ -2824,7 +2824,7 @@ h1.page-title + .tag-cloud-list {
   color: #49b1f5;
 }
 #aside-content #card-toc .toc-content .toc-link.active {
-  background: #00c4b6;
+  background: #49b1f5;
   color: #fff;
 }
 #aside-content :only-child > .card-widget {
@@ -3251,7 +3251,7 @@ h1.page-title + .tag-cloud-list {
 }
 #page-header #site-title {
   margin: 0;
-  color: var(--white);
+  color: var(--black);
   font-size: 1.85em;
 }
 @media screen and (min-width: 768px) {
@@ -3260,7 +3260,7 @@ h1.page-title + .tag-cloud-list {
   }
 }
 #page-header #site-subtitle {
-  color: var(--light-grey);
+  color: var(--black);
   font-size: 1.15em;
 }
 @media screen and (min-width: 768px) {
@@ -4060,7 +4060,7 @@ h1.page-title + .tag-cloud-list {
   text-align: center;
 }
 #pagination .page-number.current {
-  background: #00c4b6;
+  background: #49b1f5;
   color: var(--white);
 }
 #pagination .pagination-info {
@@ -4139,7 +4139,7 @@ h1.page-title + .tag-cloud-list {
   overflow-wrap: break-word;
 }
 #article-container a {
-  color: #49b1f5;
+  color: #99a9bf;
 }
 #article-container a:hover {
   text-decoration: underline;
