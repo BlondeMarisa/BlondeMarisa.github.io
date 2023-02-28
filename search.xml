@@ -4,13 +4,50 @@
   
     
     <entry>
-      <title></title>
-      <link href="/posts/1.html"/>
-      <url>/posts/1.html</url>
+      <title>最浪漫的告白——少女们的飞空恋歌</title>
+      <link href="/posts/15023.html"/>
+      <url>/posts/15023.html</url>
+      
+        <content type="html"><![CDATA[<div align=center class="aspect-ratio">    <iframe src="https://player.bilibili.com/player.html?aid=480423879&&page=1&as_wide=1&high_quality=1&danmaku=0"     scrolling="no"     border="0"     frameborder="no"     framespacing="0"     high_quality=1    danmaku=1     allowfullscreen="true">     </iframe></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 游戏感想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Galgame </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>信息大类程序设计基础未覆盖内容</title>
+      <link href="/posts/2412.html"/>
+      <url>/posts/2412.html</url>
       
         <content type="html"><![CDATA[<h1 id="信息大类-程序设计基础未覆盖内容"><a href="#信息大类-程序设计基础未覆盖内容" class="headerlink" title="信息大类-程序设计基础未覆盖内容"></a>信息大类-程序设计基础未覆盖内容</h1><p>Author：黄金发の魔理沙</p><h5 id="1-前言"><a href="#1-前言" class="headerlink" title="1.前言"></a>1.前言</h5><p>众所周知，航专程设进度是到指针为止，8次课结课</p><p>而事实上：翻开任意一本C语言初级教程类书籍<sup><a href="#fn_1" id="reffn_1">1</a></sup>，指针仅仅位于全书的70%左右位置，后续还有结构体，文件IO，简单DS基础，预处理器和库，存储类别，实例分析与设计等一些内容。</p><p>其他任意大学的同类大一上课程，无一不是学分高，占比重，体量完整的。</p><blockquote id="fn_1"><sup>1</sup>. e.g. 苏小红等. C语言程序设计（第四版）. C Primer Plus. 宋友等. C语言程序设计——原理与实践 <a href="#reffn_1" title="Jump back to footnote [1] in the text."> &#8617;</a></blockquote>]]></content>
       
       
+      <categories>
+          
+          <category> 编程学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C </tag>
+            
+        </tags>
       
     </entry>
     
@@ -18,17 +55,17 @@
     
     <entry>
       <title>记一次看板娘折腾经历</title>
-      <link href="/posts/1.html"/>
-      <url>/posts/1.html</url>
+      <link href="/posts/34975.html"/>
+      <url>/posts/34975.html</url>
       
         <content type="html"><![CDATA[<p><img src="https://gitee.com/vicenzo/hexo-blog-personal-map-bed/raw/master/img/2020_08_10_21_06_IMG_7833.JPG" alt=""></p><p><img src="https://gitee.com/vicenzo/hexo-blog-personal-map-bed/raw/master/img/2020_08_10_21_06_IMG_7833.JPG" alt=""></p><p><img src="https://gitee.com/vicenzo/hexo-blog-personal-map-bed/raw/master/img/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221109163054.jpg" alt=""></p><p><img src="https://s1.ax1x.com/2023/02/01/pSBR8uq.png" alt=""></p><!-----title: 文章标题date: 创建日期updated: 更新日期cover: 文章封面description: 文章描述swiper_index: 1 #置顶轮播图顺序，非负整数，数字越大越靠前-----><p><a href="[素晴SR.的个人空间_哔哩哔哩_bilibili](https://space.bilibili.com/1283920">素晴SR.</a>)</p>]]></content>
       
       
       <categories>
           
-          <category> 奇妙经历 </category>
-          
           <category> 编程学习 </category>
+          
+          <category> 奇妙经历 </category>
           
       </categories>
       
@@ -62,28 +99,6 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>友人帐</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -106,6 +121,17 @@
     
     
     <entry>
+      <title>友人帐</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>留言板</title>
       <link href="/comments/index.html"/>
       <url>/comments/index.html</url>
@@ -120,6 +146,17 @@
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
