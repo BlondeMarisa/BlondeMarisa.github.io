@@ -110,17 +110,6 @@
     
     
     <entry>
-      <title>统计</title>
-      <link href="/num/index.html"/>
-      <url>/num/index.html</url>
-      
-        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>友人帐</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -148,6 +137,17 @@
       <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>统计</title>
+      <link href="/num/index.html"/>
+      <url>/num/index.html</url>
+      
+        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div>]]></content>
       
     </entry>
     
