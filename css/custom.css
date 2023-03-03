@@ -560,8 +560,8 @@ body::-webkit-scrollbar {
 }
 
 .neko {
-  width: 64px;
-  height: 64px;
+  width: 100px;
+  height: 100px;
   background-image: url("https://bu.dusays.com/2022/07/20/62d812db74be9.png");
   position: absolute;
   right: 32px;
@@ -570,23 +570,24 @@ body::-webkit-scrollbar {
   transform: translateX(50%);
   cursor: pointer;
   font-family: tzy;
-  font-weight: 600;
-  font-size: 16px;
-  color: #6f42c1;
+  
+  font-weight: 1600;
+  font-size: 3px;
+  color: #49B1F5;
   display: none;
 }
 
 .neko::after {
   display: none;
-  width: 100px;
-  height: 100px;
+  width: 160px;
+  height: 160px;
   background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");
   background-size: contain;
   z-index: 9999;
   position: absolute;
   right: 50%;
   text-align: center;
-  line-height: 100px;
+  line-height: 160px;
   top: -115%;
 
 }
