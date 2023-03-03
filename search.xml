@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>《数据结构与程序设计》第一次作业笔记————C语言基础复习</title>
+      <link href="/posts/18257.html"/>
+      <url>/posts/18257.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="《数据结构与程序设计》第一次作业笔记————C语言基础复习"><a href="#《数据结构与程序设计》第一次作业笔记————C语言基础复习" class="headerlink" title="《数据结构与程序设计》第一次作业笔记————C语言基础复习"></a>《数据结构与程序设计》第一次作业笔记————C语言基础复习</h1><h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><h2 id="第一次作业-选填"><a href="#第一次作业-选填" class="headerlink" title="第一次作业-选填"></a>第一次作业-选填</h2><h3 id="填空"><a href="#填空" class="headerlink" title="填空"></a>填空</h3><p>4.下面的函数invert的功能是将一个字符串的内容颠倒过来。请将函数补充完整。(所有答案填写在此空内，答案间以空格隔开)<br>void invert (char str [] )<br>{<br>int i,j,(填空1);<br>for(i=0,j=strlen(str)(填空2);i&lt;j;i++,j–-)<br>{<br>k=str[i];<br>str[i]=str[j];<br>str[j]=k;<br>}<br>}<br>【正确答案: k -1】<br> 解析：从头尾开始遍历即可，下标：头0，尾长度-1</p><p>6.函数index(char s[],char t[])检查字符串s中是否包含字符串t，若包含，则返回t在s中的开始位置(下标值)，否则返回-1。请将函数补充完整。<br>int index(char s[],char t[])<br>{<br>int i,j,k;<br>for(i=0;s[i]!=’\0’;i++)<br>{<br>for(j=i,k=0;填空1<strong>__</strong>&amp;&amp;s[j]= =t[k];j++,k++)<br>;<br>if(填空2<strong><em>_</em></strong>)<br>return i;<br>}<br>return -1;<br>}</p><p> 【 正确答案:<br>  t[k]!=’\0’ t[k]= =’\0’ 或<br>  s[j]!=’\0’ t[k]= =’\0’ 或<br>  t[k]!=0 t[k]= =0 或<br>  s[j]!=0 t[k]= =0 或<br>  k&lt;strlen(t) k= =strlen(t) 或<br>  s[j]!=’\0’&amp;&amp;t[k]!=’\0’ t[k]= =’\0’ 或<br>  t[k]!=’\0’ k= =strlen(t) 或<br>  s[j]!=’\0’ k= =strlen(t) 或<br>  s[j]!=’\0’&amp;&amp;t[k]!=’\0’ k= =strlen(t) 或<br>  t[k]!=0 k= =strlen(t) 或<br>  s[j]!=0 k==strlen(t) 或<br>  k&lt;strlen(t) t[k]= =’\0’ 或<br>  k&lt;strlen(t) t[k]= =0】(所有答案填写在此空内，答案间以空格隔开)<br> 解析：填空1中的for循环是在完成匹配的目的，所以匹配得以进行的两个条件分别是匹配串t没有到末尾，以及s和t的匹配位置相同。填空2则是判断是否匹配成功，如果匹配串t匹配到末尾，则表示匹配成功。</p><p>7.函数squeez(char s[],char c)的功能是删除字符串s中所出现的与变量c相同的字符。<br>void squeez(char s[],char c)<br>{<br>int i,j;<br>for(i=j=0;填空1<strong>__</strong>;i++)<br>if(s[i]!=c)<br>填空2<strong>__</strong>;<br>s[j]=’\0’;<br>}</p><p>  【 正确答案: s[i]!=’\0’ s[j++]=s[i] 或 i&lt;strlen(s) s[j++]=s[i]】(所有答案填写在此空内，答案间以空格隔开)</p><p> 解析：这个函数实现的很妙，真的很妙。首先我们知道整个函数的操作都是在s上进行的，而且j&lt;=i的（当没有相同字符的时候两者相等），所以是s[j]=’\0’这部操作就是把s[j]作为s的结尾，由于要遍历整个s，所以填空1就是s[i]!=’\0’，由于当不与字符c相同时要实时更新s的结尾，所以s[j++]=s[i]。</p><h3 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h3><p>9.若有说明: char *language[] = {“FORTRAN”, “BASIC”, “PASCAL”, “JAVA”, “C”};则以下不正确的叙述是</p><p>(A) <em>(language+2) 表示字符串”PASCAL”的首地址<br>(B) </em>language[2]的值是字母P<br>(C) language是一个字符型指针数组,它包含5个元素,每个元素都是一个指向字符串的指针<br>(D) language包含5个相同长度的数组</p><p>  【正确答案: d】<br> 解析：答案不难选出来，但是注意AB的区别，language[2]=*(language+2)</p><h1 id="include"><a href="#include" class="headerlink" title="include "></a>include <stdio.h></h1><p>int main()<br>{<br>    char *a [] = {“China”,”French”,”America”,”German”};</p><pre><code>printf(&quot;数组所在地址:&quot;);printf(&quot;%p \n&quot;,a); printf(&quot;数组中第一个元素所在，即数组地址:&quot;);printf(&quot;%p \n&quot;,&amp;a[0]); printf(&quot;数组中元素（指针所指地址）:&quot;);printf(&quot;%p %p %p %p\n&quot;,a[0],a[1],a[2],a[3]);printf(&quot;数组中第一个元素（指针）所指地址:&quot;);printf(&quot;%p \n&quot;,a[0]); printf(&quot;数组中第一个元素（指针）所指地址中存放的元素（只是字符串的第一个字符）:&quot;);printf(&quot;%c \n&quot;,*a[0]); printf(&quot;数组地址取值（第一个元素，即第一个指针地址）对应的字符串:&quot;);printf(&quot;%s \n&quot;,*a); printf(&quot;数组地址移位取值（第二个元素，即第二个指针地址）对应的字符串:&quot;);printf(&quot;%s \n&quot;,*(a+1)); printf(&quot;数组第一个元素（指针）所指位置上对应的字符串:&quot;);printf(&quot;%s \n&quot;,a[0]); printf(&quot;数组第一个元素（指针）所指位置上对应的字符串中第一个字符:&quot;);printf(&quot;%c \n&quot;,a[0][0]); printf(&quot;数组第二个元素（指针）所指位置上对应的字符串中第二个字符:&quot;);printf(&quot;%c \n&quot;,a[1][1]); return 0;</code></pre><p>}</p><h3 id="编程"><a href="#编程" class="headerlink" title="编程"></a>编程</h3><p>2.表达式计算</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> DS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>最浪漫的告白——少女们的飞空恋歌</title>
       <link href="/posts/15023.html"/>
       <url>/posts/15023.html</url>
@@ -99,22 +124,11 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>记录</title>
+      <link href="/log/index.html"/>
+      <url>/log/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div><h1 id="成长记录"><a href="#成长记录" class="headerlink" title="成长记录"></a>成长记录</h1><h1 id="填坑计划"><a href="#填坑计划" class="headerlink" title="填坑计划"></a>填坑计划</h1><h1 id="开发日志"><a href="#开发日志" class="headerlink" title="开发日志"></a>开发日志</h1><h2 id="2023-03-03"><a href="#2023-03-03" class="headerlink" title="2023-03-03"></a>2023-03-03</h2><ol><li>路过图床挂了，不让传ACG图片（这太谔谔了！）改用github自建图床，图片地址全部更换一遍</li><li>挂绳图片更换为亚托莉（by ）</li></ol><h2 id="2023-02-28"><a href="#2023-02-28" class="headerlink" title="2023-02-28"></a>2023-02-28</h2><ol><li>创建开发日志</li><li>更新“友人帐”页面中技术支持和友情链接</li><li>更新gitcalendar配色为一系列粉红色</li></ol><h2 id="2023-02-27"><a href="#2023-02-27" class="headerlink" title="2023-02-27"></a>2023-02-27</h2><ol><li>添加页脚，包括“记忆”，“猜你想看”（尚未完善具体页面），“推荐友链”，运行时间，旅行者1号计时，徽标</li><li>更改页面标题和副标题为黑色</li><li>添加首页副标题及其模拟输入滚动效果</li></ol>]]></content>
       
     </entry>
     
@@ -132,11 +146,22 @@
     
     
     <entry>
-      <title>记录</title>
-      <link href="/log/index.html"/>
-      <url>/log/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div><h1 id="成长记录"><a href="#成长记录" class="headerlink" title="成长记录"></a>成长记录</h1><h1 id="填坑计划"><a href="#填坑计划" class="headerlink" title="填坑计划"></a>填坑计划</h1><h1 id="开发日志"><a href="#开发日志" class="headerlink" title="开发日志"></a>开发日志</h1><h2 id="2023-03-03"><a href="#2023-03-03" class="headerlink" title="2023-03-03"></a>2023-03-03</h2><ol><li>路过图床挂了，不让传ACG图片（这太谔谔了！）改用github自建图床，图片地址全部更换一遍</li><li>挂绳图片更换为亚托莉（by ）</li></ol><h2 id="2023-02-28"><a href="#2023-02-28" class="headerlink" title="2023-02-28"></a>2023-02-28</h2><ol><li>创建开发日志</li><li>更新“友人帐”页面中技术支持和友情链接</li><li>更新gitcalendar配色为一系列粉红色</li></ol><h2 id="2023-02-27"><a href="#2023-02-27" class="headerlink" title="2023-02-27"></a>2023-02-27</h2><ol><li>添加页脚，包括“记忆”，“猜你想看”（尚未完善具体页面），“推荐友链”，运行时间，旅行者1号计时，徽标</li><li>更改页面标题和副标题为黑色</li><li>添加首页副标题及其模拟输入滚动效果</li></ol>]]></content>
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
