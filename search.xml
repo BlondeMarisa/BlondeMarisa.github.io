@@ -110,9 +110,9 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -143,9 +143,9 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
