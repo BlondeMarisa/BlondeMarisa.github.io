@@ -88,9 +88,9 @@
       
       <categories>
           
-          <category> 编程学习 </category>
-          
           <category> 奇妙经历 </category>
+          
+          <category> 编程学习 </category>
           
       </categories>
       
@@ -121,17 +121,6 @@
     
   
   
-    
-    
-    <entry>
-      <title>友人帐</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
     
     
     <entry>
@@ -171,6 +160,17 @@
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友人帐</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
