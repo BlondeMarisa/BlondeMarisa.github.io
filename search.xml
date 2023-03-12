@@ -160,31 +160,9 @@
     
     
     <entry>
-      <title>记录</title>
-      <link href="/log/index.html"/>
-      <url>/log/index.html</url>
-      
-        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div><h1 id="成长记录"><a href="#成长记录" class="headerlink" title="成长记录"></a>成长记录</h1><h1 id="填坑计划"><a href="#填坑计划" class="headerlink" title="填坑计划"></a>填坑计划</h1><h1 id="开发日志"><a href="#开发日志" class="headerlink" title="开发日志"></a>开发日志</h1><h2 id="2023-03-03"><a href="#2023-03-03" class="headerlink" title="2023-03-03"></a>2023-03-03</h2><ol><li>路过图床挂了，不让传ACG图片（这太谔谔了！）改用github自建图床，图片地址全部更换一遍</li><li>挂绳图片更换为亚托莉（by ）</li></ol><h2 id="2023-02-28"><a href="#2023-02-28" class="headerlink" title="2023-02-28"></a>2023-02-28</h2><ol><li>创建开发日志</li><li>更新“友人帐”页面中技术支持和友情链接</li><li>更新gitcalendar配色为一系列粉红色</li></ol><h2 id="2023-02-27"><a href="#2023-02-27" class="headerlink" title="2023-02-27"></a>2023-02-27</h2><ol><li>添加页脚，包括“记忆”，“猜你想看”（尚未完善具体页面），“推荐友链”，运行时间，旅行者1号计时，徽标</li><li>更改页面标题和副标题为黑色</li><li>添加首页副标题及其模拟输入滚动效果</li></ol>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -207,6 +185,28 @@
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>记录</title>
+      <link href="/log/index.html"/>
+      <url>/log/index.html</url>
+      
+        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div><h1 id="成长记录"><a href="#成长记录" class="headerlink" title="成长记录"></a>成长记录</h1><h1 id="填坑计划"><a href="#填坑计划" class="headerlink" title="填坑计划"></a>填坑计划</h1><h1 id="开发日志"><a href="#开发日志" class="headerlink" title="开发日志"></a>开发日志</h1><h2 id="2023-03-03"><a href="#2023-03-03" class="headerlink" title="2023-03-03"></a>2023-03-03</h2><ol><li>路过图床挂了，不让传ACG图片（这太谔谔了！）改用github自建图床，图片地址全部更换一遍</li><li>挂绳图片更换为亚托莉（by ）</li></ol><h2 id="2023-02-28"><a href="#2023-02-28" class="headerlink" title="2023-02-28"></a>2023-02-28</h2><ol><li>创建开发日志</li><li>更新“友人帐”页面中技术支持和友情链接</li><li>更新gitcalendar配色为一系列粉红色</li></ol><h2 id="2023-02-27"><a href="#2023-02-27" class="headerlink" title="2023-02-27"></a>2023-02-27</h2><ol><li>添加页脚，包括“记忆”，“猜你想看”（尚未完善具体页面），“推荐友链”，运行时间，旅行者1号计时，徽标</li><li>更改页面标题和副标题为黑色</li><li>添加首页副标题及其模拟输入滚动效果</li></ol>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
