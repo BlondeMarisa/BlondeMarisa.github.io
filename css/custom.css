@@ -1,4 +1,4 @@
-/* ҳ����ͷͼ͸�� */
+/* 页脚与头图透明 */
 #footer {
     background: transparent !important;
   }
@@ -6,7 +6,7 @@
     background: transparent !important;
   }
   
-  /* ����ģʽ����͸�� */
+  /* 白天模式遮罩透明 */
   #footer::before {
     background: transparent !important;
   }
@@ -14,44 +14,44 @@
     background: transparent !important;
   }
   
-  /* ҹ��ģʽ����͸�� */
+  /* 夜间模式遮罩透明 */
   [data-theme="dark"] #footer::before {
     background: transparent !important;
   }
   [data-theme="dark"] #page-header::before {
     background: transparent !important;
   }
-  /* С��������������ҹģʽ���� */
-/* һ��״̬ */
+  /* 小冰分类分类磁铁黑夜模式适配 */
+/* 一般状态 */
 [data-theme="dark"] .magnet_link_context {
   background: #1e1e1e;
   color: antiquewhite;
 }
-/* �������״̬ */
+/* 鼠标悬浮状态 */
 [data-theme="dark"] .magnet_link_context:hover {
   background: #3ecdf1;
   color: #f2f2f2;
 }
-/* ��ҳ��ť���� */
+/* 翻页按钮居中 */
 #pagination {
   width: 100%;
   margin: auto;
 }
 
 
-/* һ���˵����� */
+/* 一级菜单居中 */
 #nav .menus_items {
   position: absolute !important;
   width: fit-content !important;
   left: 50% !important;
   transform: translateX(-50%) !important;
 }
-/* �����2�Ǵ����������ĵ�2��Ԫ�أ������Ӳ˵���Ԫ�أ����԰��Լ������޸� */
+/* 这里的2是代表导航栏的第2个元素，即有子菜单的元素，可以按自己需求修改 */
 .menus_items .menus_item:nth-child(2) .menus_item_child {
   left: -125px;
 }    
 
-/* ������ǿ */
+/* 标题增强 */
 #site-name::before {
   opacity: 0;
   background-color: var(--black) !important;
@@ -75,8 +75,8 @@
   font-family: "Font Awesome 6 Free";
   text-align: center;
   color: black;
-  line-height: 34px; /*�����������ߴ�ֱ�����е�����΢��һ���������*/
-  font-size: 18px; /*���ݸ���ϲ��*/
+  line-height: 34px; /*如果有溢出或者垂直不居中的现象微调一下这个参数*/
+  font-size: 18px; /*根据个人喜好*/
 }
 #site-name:hover::before {
   opacity: 1;
@@ -84,10 +84,10 @@
 }
 #site-name {
   position: relative;
-  font-size: 24px; /*һ��Ҫ���������㣬����Ч���Ҳ��̶ã�*/
+  font-size: 24px; /*一定要把字体调大点，否则效果惨不忍睹！*/
 }
 
-/*��������פ*/
+/*导航栏常驻*/
 .nav-fixed #nav{
   transform: translateY(58px)!important;
   -webkit-transform: translateY(58px)!important;
@@ -105,7 +105,7 @@
 
 
 
-/* tzyҳ����ʽ */
+/* tzy页脚样式 */
 #ft {
   max-width: 1200px;
   margin: 0 auto 12px;
@@ -154,7 +154,7 @@
   color:#ffffff;
 }
 
-/* ��ť������ɫ�� */
+/* 按钮背景颜色等 */
 .btn-xz {
   display: block;
   background-color: var(--btn-bg);
@@ -168,7 +168,7 @@
 .btn-xz:hover {
   text-decoration: none !important;
 }
-/* ��ť������ɫ */
+/* 按钮悬浮颜色 */
 .btn-xz-box:hover .btn-xz {
   background-color: var(--text-bg-hover);
 }
@@ -190,7 +190,7 @@
   color: rgb(255 255 255 / 80%) !important;
   width: 50%;
 }
-/* ����������ɫ */
+/* 链接悬浮颜色 */
 .ft-links li a:hover {
   text-decoration: none !important;
   /* color: var(--theme-color) !important; */
@@ -231,7 +231,7 @@
   max-height: 80px;
   border-radius: 10px;
 }
-/* ͷ��������ɫ�� */
+/* 头像悬浮颜色框 */
 .ft-item-2 .ft-img-group .img-group-item a img:hover {
   border: 2px solid var(--theme-color);
 }
@@ -273,7 +273,7 @@
   color: rgb(0 0 0 / 80%) !important;
 }
 
-/* ҳ���������� */
+/* 页脚心跳动画 */
 #heartbeat {
   color: red;
   animation: iconAnimate 1s ease-in-out infinite;
@@ -365,7 +365,7 @@
 
 
 
-/*��Ƭ��ɫ͸����*/
+/*卡片颜色透明度*/
 :root {
   --trans-light: rgba(255, 255, 255, 0);
   --trans-dark: rgba(25, 25, 25, 0.88);
@@ -373,7 +373,7 @@
   --backdrop-filter: blur(5px) saturate(150%);
 }
 
-/* ��ҳ���¿�Ƭ */
+/* 首页文章卡片 */
 #recent-posts > .recent-post-item {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
@@ -381,7 +381,7 @@
   border: var(--border-style);
 }
 
-/* ��ҳ������Ƭ */
+/* 首页侧栏卡片 */
 #aside-content .card-widget {
   background: var(--trans-light);
   backdrop-filter: var(--backdrop-filter);
@@ -389,7 +389,7 @@
   border: var(--border-style);
 }
 
-/* ����ҳ���鵵ҳ����ͨҳ�� */
+/* 文章页、归档页、普通页面 */
 div#post,
 div#page,
 div#archive {
@@ -399,7 +399,7 @@ div#archive {
   border-radius: 20px;
 }
 
-/* ������ */
+/* 导航栏 */
 #page-header.nav-fixed #nav {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: var(--backdrop-filter);
@@ -409,7 +409,7 @@ div#archive {
   background: rgba(0, 0, 0, 0.7) !important;
 }
 
-/* ҹ��ģʽ���� */
+/* 夜间模式遮罩 */
 [data-theme="dark"] #recent-posts > .recent-post-item,
 [data-theme="dark"] #aside-content .card-widget,
 [data-theme="dark"] div#post,
@@ -419,7 +419,7 @@ div#archive {
 }
 
 
-/* ҹ��ģʽҳ��ҳͷ����͸�� */
+/* 夜间模式页脚页头遮罩透明 */
 [data-theme="dark"] #footer::before {
   background: transparent !important;
 }
@@ -427,7 +427,7 @@ div#archive {
   background: transparent !important;
 }
 
-/* �Ķ�ģʽ */
+/* 阅读模式 */
 .read-mode #aside-content .card-widget {
   background: rgba(158, 204, 171, 0.5) !important;
 }
@@ -435,7 +435,7 @@ div#archive {
   background: rgba(158, 204, 171, 0.5) !important;
 }
 
-/* ҹ��ģʽ�µ��Ķ�ģʽ */
+/* 夜间模式下的阅读模式 */
 [data-theme="dark"] .read-mode #aside-content .card-widget {
   background: rgba(25, 25, 25, 0.9) !important;
   color: #ffffff;
@@ -445,7 +445,7 @@ div#archive {
   color: #ffffff;
 }
 
-/*����������Ƶ����*/
+/*哔哩哔哩视频适配*/
 .aspect-ratio {
   position: relative;
   width: 90%;
@@ -462,8 +462,8 @@ div#archive {
   top: 0;
 }
 
-/* ����ҳH1-H6ͼ����ʽЧ�� */
-/* ���Ʒ糵ת���ٶ� 4s��������Լ����ڿ��� */
+/* 文章页H1-H6图标样式效果 */
+/* 控制风车转动速度 4s那里可以自己调节快慢 */
 h1::before,
 h2::before,
 h3::before,
@@ -473,7 +473,7 @@ h6::before {
   -webkit-animation: ccc 4s linear infinite;
   animation: ccc 4s linear infinite;
 }
-/* ���Ʒ糵ת������ -1turn Ϊ��ʱ��ת����1turn Ϊ˳ʱ��ת������ͬ���ֲ��ּǵ�ͳһ�޸� */
+/* 控制风车转动方向 -1turn 为逆时针转动，1turn 为顺时针转动，相同数字部分记得统一修改 */
 @-webkit-keyframes ccc {
   0% {
     -webkit-transform: rotate(0deg);
@@ -494,7 +494,7 @@ h6::before {
     transform: rotate(-1turn);
   }
 }
-/* ���÷糵��ɫ */
+/* 设置风车颜色 */
 #content-inner.layout h1::before {
   color: #ef50a8;
   margin-left: -1.55rem;
@@ -531,7 +531,7 @@ h6::before {
   font-size: 0.66rem;
   margin-top: 0rem;
 }
-/* s���÷糵hover��Ч 6s��������Լ����ڿ���*/
+/* s设置风车hover动效 6s那里可以自己调节快慢*/
 #content-inner.layout h1:hover,
 #content-inner.layout h2:hover,
 #content-inner.layout h3:hover,
@@ -553,7 +553,7 @@ h6::before {
 
 
 
-/*����cat*/
+/*拉绳cat*/
 
 body::-webkit-scrollbar {
   width: 0;
@@ -611,7 +611,7 @@ body::-webkit-scrollbar {
 }
 
 /**
-* @description: ��������ʽ  ��è��ѡһ
+* @description: 滚动条样式  跟猫二选一
 */
 @media screen and (max-width:992px) {
   ::-webkit-scrollbar {
@@ -634,18 +634,18 @@ body::-webkit-scrollbar {
   }
 }
 
-/* twikoo�������� */
-/* �Զ���twikoo���������߶� */
+/* twikoo评论美化 */
+/* 自定义twikoo评论输入框高度 */
 #twikoo .el-textarea textarea {
   min-height: 120px !important;
   background-size: 90px;
 }
 
-/* �Զ�������Ż� */
+/* 自定义表情优化 */
 #twikoo .OwO-body {
   max-width: 100% !important;
 }
-/* ѡ��ĳ���� #twikoo .OwO .OwO-body .OwO-items:nth-child(1) */
+/* 选择某个框 #twikoo .OwO .OwO-body .OwO-items:nth-child(1) */
 #twikoo .OwO .OwO-body .OwO-items {
   max-height: 250px !important;
 }
@@ -682,7 +682,7 @@ body::-webkit-scrollbar {
   display: block !important;
 }
 
-/* �ֻ������� */
+/* 手机端适配 */
 @media screen and (max-width: 768px) {
   .tk-comment .vemoji[alt|="Menhera"],
   .tk-comment .tk-owo-emotion[alt*="Menhera"],
@@ -714,10 +714,44 @@ body::-webkit-scrollbar {
   }
 }
 
-/* ���½Ǳ��� */
+/* 右下角闭眼 */
 .el-textarea__inner {
   background-image: url(https://tuchuang.voooe.cn/images/2023/01/02/open.webp) !important;
 }
 .el-textarea__inner:focus {
   background-image: url(https://tuchuang.voooe.cn/images/2023/01/02/close.webp) !important;
+}
+
+/*表情包放大*/
+#owo-big {
+  position: fixed;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: 1px #aaa solid;
+  border-radius: 10px;
+  z-index: 9999;
+  display: none;
+  transform: translate(0, -105%);
+  overflow: hidden;
+  animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);
+}
+
+[data-theme=dark] #owo-big {
+  background-color: #4a4a4a
+}
+
+#owo-big img {
+  width: 100%;
+}
+
+/* 动画效果代码由 Heo：https://blog.zhheo.com/ 提供 */
+@keyframes owoIn {
+  0% {
+      transform: translate(0, -95%);
+      opacity: 0;
+  }
+  100% {
+      transform: translate(0, -105%);
+      opacity: 1;
+  }
 }
