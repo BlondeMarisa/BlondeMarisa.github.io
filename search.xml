@@ -149,31 +149,20 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>文章分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<!-- 文章发布时间统计图 --><div id="posts-chart" data-start="2021-01" style="border-radius: 8px; height: 300px; padding: 10px;"></div><!-- 文章标签统计图 --><div id="tags-chart" data-length="10" style="border-radius: 8px; height: 300px; padding: 10px;"></div><!-- 文章分类统计图 --><div id="categories-chart" data-parent="true" style="border-radius: 8px; height: 300px; padding: 10px;"></div>]]></content>
+        <content type="html"><![CDATA[<!-- 文章发布时间统计图 --><div id="posts-chart" data-start="2023-01" style="border-radius: 8px; height: 300px; padding: 10px;"></div><!-- 文章分类统计图 --><div id="categories-chart" data-parent="true" style="border-radius: 8px; height: 300px; padding: 10px;"></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -197,7 +186,7 @@
       <link href="/log/index.html"/>
       <url>/log/index.html</url>
       
-        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div><h1 id="成长记录"><a href="#成长记录" class="headerlink" title="成长记录"></a>成长记录</h1><h2 id="2023-03-12"><a href="#2023-03-12" class="headerlink" title="2023-03-12"></a>2023-03-12</h2><p>开了新坑：搬空阿虚同学</p><h1 id="填坑计划"><a href="#填坑计划" class="headerlink" title="填坑计划"></a>填坑计划</h1><h1 id="开发日志"><a href="#开发日志" class="headerlink" title="开发日志"></a>开发日志</h1><h2 id="2023-03-13"><a href="#2023-03-13" class="headerlink" title="2023-03-13"></a>2023-03-13</h2><ol><li>增加了文章页面右侧直达底部按钮</li><li>增加文章分类页面，包括三张统计表和对应跳转功能<h2 id="2023-03-12-1"><a href="#2023-03-12-1" class="headerlink" title="2023-03-12"></a>2023-03-12</h2>增加评论系统，但表情包和邮件尚未配置完成</li></ol><h2 id="2023-03-03"><a href="#2023-03-03" class="headerlink" title="2023-03-03"></a>2023-03-03</h2><ol><li>路过图床挂了，不让传ACG图片（这太谔谔了！）改用github自建图床，图片地址全部更换一遍</li><li>挂绳图片更换为亚托莉，修改鼠标悬浮高性能提示消息，点击亚托莉可以快速返回网页顶端（ATRI by <a href="https://space.bilibili.com/519744">即食海参Death☆</a>）</li></ol><h2 id="2023-02-28"><a href="#2023-02-28" class="headerlink" title="2023-02-28"></a>2023-02-28</h2><ol><li>创建开发日志</li><li>更新“友人帐”页面中技术支持和友情链接</li><li>更新gitcalendar配色为一系列粉红色</li></ol><h2 id="2023-02-27"><a href="#2023-02-27" class="headerlink" title="2023-02-27"></a>2023-02-27</h2><ol><li>添加页脚，包括“记忆”，“猜你想看”（尚未完善具体页面），“推荐友链”，运行时间，旅行者1号计时，徽标</li><li>更改页面标题和副标题为黑色</li><li>添加首页副标题及其模拟输入滚动效果</li></ol>]]></content>
+        <content type="html"><![CDATA[<!-- GitCalendar容器 --><div id="gitZone"></div><h1 id="成长记录"><a href="#成长记录" class="headerlink" title="成长记录"></a>成长记录</h1><h2 id="2023-03-12"><a href="#2023-03-12" class="headerlink" title="2023-03-12"></a>2023-03-12</h2><p>开了新坑：搬空阿虚同学</p><h1 id="填坑计划"><a href="#填坑计划" class="headerlink" title="填坑计划"></a>填坑计划</h1><h1 id="开发日志"><a href="#开发日志" class="headerlink" title="开发日志"></a>开发日志</h1><h2 id="2023-03-13"><a href="#2023-03-13" class="headerlink" title="2023-03-13"></a>2023-03-13</h2><ol><li>增加文章页面右侧直达底部按钮</li><li>增加文章分类页面和标签界面，包括三张统计表和对应跳转功能</li><li>增加宽屏适配</li><li>除了首页以外其他页面隐藏侧边栏卡片，并采用宽屏显示</li><li>信息卡片头像增加状态：摸鱼中</li><li>增加信息卡片鼠标悬浮彩带效果</li><li>修改F12控制台样式</li></ol><h2 id="2023-03-12-1"><a href="#2023-03-12-1" class="headerlink" title="2023-03-12"></a>2023-03-12</h2><p>增加评论系统，但表情包和邮件尚未配置完成</p><h2 id="2023-03-03"><a href="#2023-03-03" class="headerlink" title="2023-03-03"></a>2023-03-03</h2><ol><li>路过图床挂了，不让传ACG图片（这太谔谔了！）改用github自建图床，图片地址全部更换一遍</li><li>挂绳图片更换为亚托莉，修改鼠标悬浮高性能提示消息，点击亚托莉可以快速返回网页顶端<br>（ATRI by <a href="https://www.bilibili.com/video/BV19M411j7ez">即食海参Death☆</a>）</li></ol><h2 id="2023-02-28"><a href="#2023-02-28" class="headerlink" title="2023-02-28"></a>2023-02-28</h2><ol><li>创建开发日志</li><li>更新“友人帐”页面中技术支持和友情链接</li><li>更新gitcalendar配色为一系列粉红色</li></ol><h2 id="2023-02-27"><a href="#2023-02-27" class="headerlink" title="2023-02-27"></a>2023-02-27</h2><ol><li>添加页脚，包括“记忆”，“猜你想看”（尚未完善具体页面），“推荐友链”，运行时间，旅行者1号计时，徽标</li><li>更改页面标题和副标题为黑色</li><li>添加首页副标题及其模拟输入滚动效果</li></ol>]]></content>
       
     </entry>
     
@@ -229,6 +218,17 @@
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[<!-- 文章标签统计图 --><div id="tags-chart" data-length="10" style="border-radius: 8px; height: 300px; padding: 10px;"></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/movies/index.html"/>
+      <url>/movies/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
